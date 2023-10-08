@@ -3,8 +3,8 @@ import { InputBox } from './components';
 import useCurrencyInfo from './hooks/useCurrencyInfo';
 
 function App() {
-  const [fromAmount, setFromAmount] = useState(""); // Separate state for "From" currency
-  const [toAmount, setToAmount] = useState(""); // Separate state for "To" currency
+  const [fromAmount, setFromAmount] = useState("");
+  const [toAmount, setToAmount] = useState(""); 
   const [fromCurrency, setFromCurrency] = useState("usd");
   const [toCurrency, setToCurrency] = useState("inr");
   const [convertedAmount, setConvertedAmount] = useState("");
